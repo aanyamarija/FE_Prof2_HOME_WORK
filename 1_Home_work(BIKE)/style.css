@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* HEADER */
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    align-items: center;  
+}
+
+.btn {
+    border: none;
+    background-color: orange;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+
+    align-self: center;  
+}
+
+.info_btn{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+}
+
+/* HEADER SECTION*/
+
+.header_section1 {
+    background-color: rgb(219, 235, 195);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 50px;
+
+    max-width: 100%; 
+}
+
+.title_1 {
+    font-style: italic;
+    font-size: 48px;
+    color: rgb(15, 15, 55);   
+}
+
+.header_text {
+    font-size: 24px;
+    color: rgb(15, 15, 55);
+    padding-top: 5%;
+}
+
+.header_img{
+    width: 543px;
+    height: 533px;
+    display: flex;  
+}
+
+.wrapper_1 {
+    padding-left: 10%;
+}
+
+
+/* BODY*/
+
+.section_1 {
+    background-color: rgb(37, 188, 226);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.section_title2{
+    font-size: 36px;
+    font-style: italic;
+    color: white;
+}
+
+.section_content_text2{
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    padding-top: 2%;
+}
+
+.section_text {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.red_bike {
+   width: 100%;
+   display: flex;
+}
+
+/* SECTION 2*/
+
+.section2_text {
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(15, 15, 55); 
+    text-align: center;
+}
+
+.section2_text_2{
+     margin: 20% 20%;
+}
+
+/* SECTION 3*/
+
+.section_3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+}
+
+.opt_1{
+    padding-top: 20%;
+    background-color: rgb(24, 24, 52);
+    height: 500px;
+    padding-left: 10%;
+}
+
+.opt_2{
+    padding-top: 20%;
+    background-color: rgb(8, 70, 240);
+    padding-left: 10%;
+}
+
+.opt_3{
+    padding-top: 20%;
+    background-color: rgb(132, 190, 132);
+    padding-left: 10%;
+}
+
+.title{
+    font-size: 32px;
+    font-style: italic;
+    color: white;
+}
+
+/* FOOTER */
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100%;
+}
+
+.Title_footer{
+    font-style: italic;
+    font-size: 36px;
+    color: rgb(15, 15, 55);   
+}
+
+.footer_text_info{
+    font-style: italic;
+    font-size: 36px;
+    color: rgb(15, 15, 55); 
+}
+
+.footer_text_container{
+    margin: 50% 5%;
+}
+
+.footer_text{
+    margin-top: 5%;
+}
